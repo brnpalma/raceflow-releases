@@ -4,31 +4,25 @@ Distribuição pública dos instaladores do **RaceFlow**.
 
 > Acesse o app em: https://raceflow-puce.vercel.app
 
-## Download — versão atual: v3.8.1
+## Download — versão atual: v3.9.0
 
 | Plataforma | Arquivo | Link |
 |------------|---------|------|
-| Android | RaceFlow-v3.8.1.apk | [⬇ Baixar APK](https://github.com/brnpalma/raceflow-releases/releases/download/v3.8.1/RaceFlow-v3.8.1.apk) |
-| Windows | RaceFlow_Setup_v3.8.1.exe | [⬇ Baixar instalador](https://github.com/brnpalma/raceflow-releases/releases/download/v3.8.1/RaceFlow_Setup_v3.8.1.exe) |
+| Android | RaceFlow-v3.9.0.apk | [⬇ Baixar APK](https://github.com/brnpalma/raceflow-releases/releases/download/v3.9.0/RaceFlow-v3.9.0.apk) |
+| Windows | RaceFlow_Setup_v3.9.0.exe | [⬇ Baixar instalador](https://github.com/brnpalma/raceflow-releases/releases/download/v3.9.0/RaceFlow_Setup_v3.9.0.exe) |
 
-Publicado em: 26/06/2026
+Publicado em: 27/06/2026
 
 ---
 
-## Notas da versão v3.8.1
+## Notas da versão v3.9.0
 
-### Melhorias
-- Landing page: textos em cinza mais legiveis
-- Landing page: cards com borda gradiente padrao do app
-- Landing page: cards Como Configurar e jogos padronizados
-- Landing page: botoes de download com icone acima do texto
-- Landing page: icone Android correto
-- Landing page: novo plano Premium + Overlays (em breve)
-- Plano Premium: duracao alterada de 1 ano para 6 meses
+### Novidades
+- Nova seção de Contato na landing page com botões oficiais (Instagram, Discord, E-mail)
+- Âncora Contato adicionada ao menu superior da landing page
 
-### Correcoes
-- Ajuste no sincronizador
-- Prevencao de conflito em portas em uso por outros apps
+### Correções
+- Ajustes visuais e de layout na landing page
 
 ---
 
