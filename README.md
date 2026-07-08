@@ -4,24 +4,21 @@ Distribuição pública dos instaladores do **RaceFlow**.
 
 > Acesse o app em: https://raceflow-puce.vercel.app
 
-## Download — versão atual: v4.1.0
+## Download — versão atual: v4.1.1
 
 | Plataforma | Arquivo | Link |
 |------------|---------|------|
-| Android | RaceFlow-v4.1.0.apk | [⬇ Baixar APK](https://github.com/brnpalma/raceflow-releases/releases/download/v4.1.0/RaceFlow-v4.1.0.apk) |
-| Windows | RaceFlow_Setup_v4.1.0.exe | [⬇ Baixar instalador](https://github.com/brnpalma/raceflow-releases/releases/download/v4.1.0/RaceFlow_Setup_v4.1.0.exe) |
+| Android | RaceFlow-v4.1.1.apk | [⬇ Baixar APK](https://github.com/brnpalma/raceflow-releases/releases/download/v4.1.1/RaceFlow-v4.1.1.apk) |
+| Windows | RaceFlow_Setup_v4.1.1.exe | [⬇ Baixar instalador](https://github.com/brnpalma/raceflow-releases/releases/download/v4.1.1/RaceFlow_Setup_v4.1.1.exe) |
 
 Publicado em: 08/07/2026
 
 ---
 
-## Notas da versão v4.1.0
+## Notas da versão v4.1.1
 
-### Novidades
-- Lógica de trial de acesso para overlays, telemetria automática e comparativo de pilotos — trial unificado de 7 dias, substituindo o antigo limite por quantidade de visitas à telemetria.
-
-### Outros
-- Ajustes no overlay de Classificação: botão "Identificar Duelos" agora só aparece nos modos relevantes (Diferença em quali/treino, Intervalo em corrida), o modo padrão volta a "Intervalo"/"Melhor volta" a cada sessão nova, e a marcação de "mais rápido" (roxo) em quali passa a valer só para o líder da sessão.
+### Correções
+- Corrigido o autoatualizador do Windows: a instalação silenciosa podia falhar e mostrar um erro nativo do Windows ("não pode localizar '\'") ao tentar reabrir o app depois de atualizar. A cadeia de instalação agora roda a partir de um .bat real (mais robusto contra limites de escaping) e só tenta reabrir o app se o executável realmente existir no caminho esperado.
 
 ---
 
