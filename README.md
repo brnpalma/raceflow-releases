@@ -4,21 +4,25 @@ Distribuição pública dos instaladores do **RaceFlow**.
 
 > Acesse o app em: https://raceflow-puce.vercel.app
 
-## Download — versão atual: v4.1.1
+## Download — versão atual: v5.0.0
 
 | Plataforma | Arquivo | Link |
 |------------|---------|------|
-| Android | RaceFlow-v4.1.1.apk | [⬇ Baixar APK](https://github.com/brnpalma/raceflow-releases/releases/download/v4.1.1/RaceFlow-v4.1.1.apk) |
-| Windows | RaceFlow_Setup_v4.1.1.exe | [⬇ Baixar instalador](https://github.com/brnpalma/raceflow-releases/releases/download/v4.1.1/RaceFlow_Setup_v4.1.1.exe) |
+| Android | RaceFlow-v5.0.0.apk | [⬇ Baixar APK](https://github.com/brnpalma/raceflow-releases/releases/download/v5.0.0/RaceFlow-v5.0.0.apk) |
+| Windows | RaceFlow_Setup_v5.0.0.exe | [⬇ Baixar instalador](https://github.com/brnpalma/raceflow-releases/releases/download/v5.0.0/RaceFlow_Setup_v5.0.0.exe) |
 
 Publicado em: 08/07/2026
 
 ---
 
-## Notas da versão v4.1.1
+## Notas da versão v5.0.0
 
-### Correções
-- Corrigido o autoatualizador do Windows: a instalação silenciosa podia falhar e mostrar um erro nativo do Windows ("não pode localizar '\'") ao tentar reabrir o app depois de atualizar. A cadeia de instalação agora roda a partir de um .bat real (mais robusto contra limites de escaping) e só tenta reabrir o app se o executável realmente existir no caminho esperado.
+### Novidades
+- Atualização automática no Windows: o app agora baixa, instala e reabre sozinho quando há uma versão nova, sem precisar baixar o instalador manualmente pelo navegador.
+- Lógica de trial de acesso para overlays, telemetria automática e comparativo de pilotos — trial unificado de 7 dias.
+
+### Outros
+- Ajustes no overlay de Classificação (botão "Identificar Duelos" contextual, cor roxa restrita ao líder em quali).
 
 ---
 
