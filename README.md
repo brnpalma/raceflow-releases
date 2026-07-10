@@ -4,25 +4,29 @@ Distribuição pública dos instaladores do **RaceFlow**.
 
 > Acesse o app em: https://raceflow-puce.vercel.app
 
-## Download — versão atual: v5.3.0
+## Download — versão atual: v5.3.1
 
 | Plataforma | Arquivo | Link |
 |------------|---------|------|
-| Android | RaceFlow-v5.3.0.apk | [⬇ Baixar APK](https://github.com/brnpalma/raceflow-releases/releases/download/v5.3.0/RaceFlow-v5.3.0.apk) |
-| Windows | RaceFlow_Setup_v5.3.0.exe | [⬇ Baixar instalador](https://github.com/brnpalma/raceflow-releases/releases/download/v5.3.0/RaceFlow_Setup_v5.3.0.exe) |
+| Android | RaceFlow-v5.3.1.apk | [⬇ Baixar APK](https://github.com/brnpalma/raceflow-releases/releases/download/v5.3.1/RaceFlow-v5.3.1.apk) |
+| Windows | RaceFlow_Setup_v5.3.1.exe | [⬇ Baixar instalador](https://github.com/brnpalma/raceflow-releases/releases/download/v5.3.1/RaceFlow_Setup_v5.3.1.exe) |
 
 Publicado em: 10/07/2026
 
 ---
 
-## Notas da versão v5.3.0
+## Notas da versão v5.3.1
 
 ### Novidades
-- feat: update version to 5.3.0 and add new release files for Windows and Android
-- Add Portuguese localization, locale provider, and update dependencies
+- Trial gratuito estendido de 7 para 30 dias
+- Tela de novidades reorganizada por status (Pendente, Ativa, Concluída), com edição direta ao clicar no card
+
+### Correções
+- Corrigido: editar resultados de uma corrida não salva mais alterações ao voltar quando nada foi mudado
+- Corrigido: app não oferece mais atualização externa quando instalado via Microsoft Store (compliance com política 10.1.5)
 
 ### Outros
-- Refactor logging deduplication in main.dart for improved readability
+- Registro de IP/dispositivo no cadastro de novos usuários (uso administrativo interno)
 
 ---
 
