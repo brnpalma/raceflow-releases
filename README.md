@@ -4,34 +4,26 @@ Distribuição pública dos instaladores do **RaceFlow**.
 
 > Acesse o app em: https://raceflow-puce.vercel.app
 
-## Download — versão atual: v5.4.0
+## Download — versão atual: v5.4.1
 
 | Plataforma | Arquivo | Link |
 |------------|---------|------|
-| Android | RaceFlow-v5.4.0.apk | [⬇ Baixar APK](https://github.com/brnpalma/raceflow-releases/releases/download/v5.4.0/RaceFlow-v5.4.0.apk) |
-| Windows | RaceFlow_Setup_v5.4.0.exe | [⬇ Baixar instalador](https://github.com/brnpalma/raceflow-releases/releases/download/v5.4.0/RaceFlow_Setup_v5.4.0.exe) |
+| Android | RaceFlow-v5.4.1.apk | [⬇ Baixar APK](https://github.com/brnpalma/raceflow-releases/releases/download/v5.4.1/RaceFlow-v5.4.1.apk) |
+| Windows | RaceFlow_Setup_v5.4.1.exe | [⬇ Baixar instalador](https://github.com/brnpalma/raceflow-releases/releases/download/v5.4.1/RaceFlow_Setup_v5.4.1.exe) |
 
 Publicado em: 13/07/2026
 
 ---
 
-## Notas da versão v5.4.0
-
-### Novidades
-- Vinculação de perfil de jogador aprimorada, com melhorias de UI
-- Rastreamento e exibição de penalidades no dashboard de telemetria
-- Projeto inicial do backend Cloudflare (raceflow-backend-cloudflare)
-- Atualização de strings de localização e melhorias na vinculação de pilotos
+## Notas da versão v5.4.1
 
 ### Correções
-- Corrigido travamento indefinido no cadastro/login quando a rede bloqueia o Firebase (ex.: China) — agora exibe erro de conexão em vez de girar o loading para sempre
-- Substituída dependência firebase-admin por REST API nas functions do Cloudflare
-- Removida referência quebrada de submodule (.claude/worktrees)
+- Corrigidos overflows visuais em telas pequenas (navbar, marca do topo, cards de serviço e rodapé)
+- Botões de download (Android, Windows, Web) padronizados com o mesmo tamanho
+- Botão de download Windows agora aponta para a Microsoft Store, exibindo a versão atualizada
 
 ### Outros
-- Refatoração de estrutura de código para maior legibilidade e manutenção
-- Remoção de diagnósticos e rotas temporárias de debug do backend Cloudflare
-- Remoção do ViewerTeamsTab e atualização das funcionalidades do modal Novidades
+- Script de build agora remove artefatos intermediários automaticamente, mantendo tudo apenas em `releases/`
 
 
 ---
