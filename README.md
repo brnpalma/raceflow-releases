@@ -4,33 +4,27 @@ Distribuição pública dos instaladores do **RaceFlow**.
 
 > Acesse o app em: https://raceflow-puce.vercel.app
 
-## Download — versão atual: v5.6.1
+## Download — versão atual: v5.7.0
 
 | Plataforma | Arquivo | Link |
 |------------|---------|------|
-| Android | RaceFlow-v5.6.1.apk | [⬇ Baixar APK](https://github.com/brnpalma/raceflow-releases/releases/download/v5.6.1/RaceFlow-v5.6.1.apk) |
-| Windows | RaceFlow_Setup_v5.6.1.exe | [⬇ Baixar instalador](https://github.com/brnpalma/raceflow-releases/releases/download/v5.6.1/RaceFlow_Setup_v5.6.1.exe) |
+| Android | RaceFlow-v5.7.0.apk | [⬇ Baixar APK](https://github.com/brnpalma/raceflow-releases/releases/download/v5.7.0/RaceFlow-v5.7.0.apk) |
+| Windows | RaceFlow_Setup_v5.7.0.exe | [⬇ Baixar instalador](https://github.com/brnpalma/raceflow-releases/releases/download/v5.7.0/RaceFlow_Setup_v5.7.0.exe) |
 
 Publicado em: 15/07/2026
 
 ---
 
-## Notas da versão v5.6.1
-
-### Novidades
-- Rastreamento de origem de cadastro no aviso do Telegram (site oficial vs GitHub Releases/versão antiga)
-- Logs estruturados do console de debug agora chegam ao Sentry (aba Logs)
-- Captura automática no Sentry de sessão perdida sem logout explícito (uid, e-mail, provedor, duração da sessão) — investigação do bug de login não persistindo no MSIX
-- Eventos do Sentry agora marcados por variante de build (web/apk/exe/msix), além de development/production
+## Notas da versão v5.7.0
 
 ### Correções
-- Spinner de exclusão de conta travava indefinidamente em caso de erro de rede ou após sucesso (redirect do GoRouter acontecia antes do fechamento do diálogo)
-- Timeout de 20s em toda a cadeia de exclusão de conta (reautenticação, histórico, Firestore)
-- Mensagem de senha incorreta ao excluir conta agora aparece corretamente (Firebase Windows retornava código genérico)
-- Reautenticação por senha ao excluir conta trocada de reauthenticateWithCredential (travava no plugin Windows) para signInWithEmailAndPassword
+- Login não persistia ao fechar/reabrir o app no Windows: firebase_auth deixava `currentUser` null por até ~20s na inicialização, fazendo o app redirecionar pra tela de login antes da sessão real carregar. Corrigido via upgrade do Firebase (firebase_core 4.x, firebase_auth 6.x, cloud_firestore 6.x, firebase_analytics 12.x).
+- Duas instâncias do RaceFlow abertas ao mesmo tempo no Windows (ex.: versão instalada + MSIX) derrubavam a sessão de login uma da outra. Agora o app detecta instância já em execução (exe, portátil ou MSIX) e mostra aviso em vez de abrir uma segunda janela conflitante.
+- Corrigido encoding de acentos em mensagens nativas do Windows (MSVC compilando sem UTF-8 explícito).
+- Corrigida falha de build Android causada por incompatibilidade de versão do Kotlin com o firebase_analytics atualizado.
 
 ### Outros
-- .sentry-native/ removido do controle de versão (arquivos de runtime local)
+- Instrumentação extra no Sentry para diagnosticar perda de sessão (uid, e-mail, provedor, duração da sessão, plataforma/variante de build).
 
 ---
 
