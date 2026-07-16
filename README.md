@@ -19,6 +19,12 @@
 
 Distribuição pública dos instaladores do **RaceFlow**.
 
+## Sobre o RaceFlow
+
+RaceFlow é uma plataforma multiplataforma para criar e gerenciar campeonatos de automobilismo — virtual ou real. Suporta as principais categorias do automobilismo mundial com dados reais pré-carregados, telemetria automática via UDP sem plugins, overlays de transmissão prontos pra OBS, e visualização pública sem necessidade de conta.
+
+Disponível para **Web**, **Android** e **Windows**.
+
 ## Download — versão atual: v5.8.0
 
 | Plataforma | Como baixar |
