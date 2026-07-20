@@ -6,12 +6,12 @@
 
 **Gerencie seus campeonatos de automobilismo como um verdadeiro chefe de equipe.**
 
-[![Version](https://img.shields.io/badge/versão-5.12.0-blue?style=flat-square)](https://github.com/brnpalma/raceflow-releases/releases/tag/v5.12.0)
+[![Version](https://img.shields.io/badge/versão-5.13.0-blue?style=flat-square)](https://github.com/brnpalma/raceflow-releases/releases/tag/v5.13.0)
 [![Flutter](https://img.shields.io/badge/Flutter-3.7-02569B?style=flat-square&logo=flutter)](https://flutter.dev)
 [![Firebase](https://img.shields.io/badge/Firebase-Firestore-FFCA28?style=flat-square&logo=firebase&logoColor=black)](https://firebase.google.com)
 [![Platform](https://img.shields.io/badge/plataforma-Web%20%7C%20Android%20%7C%20Windows-lightgrey?style=flat-square)](https://flutter.dev)
 
-[🌐 Acesse a Landing Page](https://raceflow-puce.vercel.app) · [📱 Baixar APK](https://github.com/brnpalma/raceflow-releases/releases/download/v5.12.0/RaceFlow-v5.12.0.apk) · [🪟 Baixar na Microsoft Store](https://apps.microsoft.com/detail/9NSV6W2XSVCH)
+[🌐 Acesse a Landing Page](https://raceflow-puce.vercel.app) · [📱 Baixar APK](https://github.com/brnpalma/raceflow-releases/releases/download/v5.13.0/RaceFlow-v5.13.0.apk) · [🪟 Baixar na Microsoft Store](https://apps.microsoft.com/detail/9NSV6W2XSVCH)
 
 </div>
 
@@ -25,27 +25,31 @@ RaceFlow é uma plataforma multiplataforma para criar e gerenciar campeonatos de
 
 Disponível para **Web**, **Android** e **Windows**.
 
-## Download — versão atual: v5.12.0
+## Download — versão atual: v5.13.0
 
 | Plataforma | Como baixar |
 |------------|-------------|
-| Android | [⬇ Baixar APK](https://github.com/brnpalma/raceflow-releases/releases/download/v5.12.0/RaceFlow-v5.12.0.apk) |
+| Android | [⬇ Baixar APK](https://github.com/brnpalma/raceflow-releases/releases/download/v5.13.0/RaceFlow-v5.13.0.apk) |
 | Windows | [🪟 Baixar na Microsoft Store](https://apps.microsoft.com/detail/9NSV6W2XSVCH) |
 
 Publicado em: 20/07/2026
 
 ---
 
-## Notas da versão v5.12.0
+## Notas da versão v5.13.0
 
 ### Novidades
-- Modo de deploy do ERS (Nenhum/Médio/V.Rápida/Overtake) exibido no overlay de bateria, com efeito visual de vidro/brilho quando o modo Overtake ou Boost está ativo
-- Título "Bateria/Battery" e novo separador no overlay de bateria em modo comparativo
+- Cada overlay web agora tem URL própria (para configurar cada painel separadamente no OBS), com botão de copiar link
+- Cantos arredondados padronizados em todos os overlays (template compartilhado, já vale para overlays futuros)
 
 ### Correções
-- Corrige detecção de formato de telemetria F1 2025→2026 que travava em formato antigo
-- Corrige crash por NaN ao serializar dados de combustível/ERS/desgaste de pneu na telemetria
-- Corrige travamento de overlays (contexto EGL perdido no Windows) ao mudar configuração de monitores — janela agora é recriada automaticamente
+- Removidos overlays de velocímetro, cockpit dash, halo HUD e duelo de overtake
+- Overlay de bateria (web): anel não passa mais da borda, borda padrão do app corrigida, animação da porcentagem mais fluida, título e divisórias adicionados
+- Leaderboard: corte no final dos tempos de volta corrigido
+- Leaderboard: troca de posição agora anima suavemente (web e Windows) em vez de saltar instantaneamente
+- Leaderboard: corrigido "pulo duplo" ao registrar tempo de piloto (fica parado até o tempo real chegar)
+- Leaderboard: corrigido desalinhamento de colunas
+- Leaderboard (Windows): corrigida engasgada na animação do identificador de duelos
 
 ---
 
