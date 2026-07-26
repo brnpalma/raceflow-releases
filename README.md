@@ -6,12 +6,12 @@
 
 **Gerencie seus campeonatos de automobilismo como um verdadeiro chefe de equipe.**
 
-[![Version](https://img.shields.io/badge/versão-6.1.0-blue?style=flat-square)](https://github.com/brnpalma/raceflow-releases/releases/tag/v6.1.0)
+[![Version](https://img.shields.io/badge/versão-6.2.0-blue?style=flat-square)](https://github.com/brnpalma/raceflow-releases/releases/tag/v6.2.0)
 [![Flutter](https://img.shields.io/badge/Flutter-3.7-02569B?style=flat-square&logo=flutter)](https://flutter.dev)
 [![Firebase](https://img.shields.io/badge/Firebase-Firestore-FFCA28?style=flat-square&logo=firebase&logoColor=black)](https://firebase.google.com)
 [![Platform](https://img.shields.io/badge/plataforma-Web%20%7C%20Android%20%7C%20Windows-lightgrey?style=flat-square)](https://flutter.dev)
 
-[🌐 Acesse a Landing Page](https://raceflow-puce.vercel.app) · [📱 Baixar APK](https://github.com/brnpalma/raceflow-releases/releases/download/v6.1.0/RaceFlow-v6.1.0.apk) · [🪟 Baixar na Microsoft Store](https://apps.microsoft.com/detail/9NSV6W2XSVCH)
+[🌐 Acesse a Landing Page](https://raceflow-puce.vercel.app) · [📱 Baixar APK](https://github.com/brnpalma/raceflow-releases/releases/download/v6.2.0/RaceFlow-v6.2.0.apk) · [🪟 Baixar na Microsoft Store](https://apps.microsoft.com/detail/9NSV6W2XSVCH)
 
 </div>
 
@@ -25,24 +25,26 @@ RaceFlow é uma plataforma multiplataforma para criar e gerenciar campeonatos de
 
 Disponível para **Web**, **Android** e **Windows**.
 
-## Download — versão atual: v6.1.0
+## Download — versão atual: v6.2.0
 
 | Plataforma | Como baixar |
 |------------|-------------|
-| Android | [⬇ Baixar APK](https://github.com/brnpalma/raceflow-releases/releases/download/v6.1.0/RaceFlow-v6.1.0.apk) |
+| Android | [⬇ Baixar APK](https://github.com/brnpalma/raceflow-releases/releases/download/v6.2.0/RaceFlow-v6.2.0.apk) |
 | Windows | [🪟 Baixar na Microsoft Store](https://apps.microsoft.com/detail/9NSV6W2XSVCH) |
 
-Publicado em: 25/07/2026
+Publicado em: 26/07/2026
 
 ---
 
-## Notas da versão v6.1.0
+## Notas da versão v6.2.0
 
 ### Novidades
-- feat: implement share link functionality with creation and resolution of share codes
+- Nova funcionalidade de permissões de telemetria
+- Melhorias na apresentação da seção de prova social (social proof)
+- Atualizações de textos e localização
 
 ### Outros
-- feat: update app version to 6.1.0 and localize dashboard summary label
+- Ajustes internos de versão e testes do sistema de RX
 
 ---
 
