@@ -6,12 +6,12 @@
 
 **Gerencie seus campeonatos de automobilismo como um verdadeiro chefe de equipe.**
 
-[![Version](https://img.shields.io/badge/versão-6.3.1-blue?style=flat-square)](https://github.com/brnpalma/raceflow-releases/releases/tag/v6.3.1)
+[![Version](https://img.shields.io/badge/versão-6.4.0-blue?style=flat-square)](https://github.com/brnpalma/raceflow-releases/releases/tag/v6.4.0)
 [![Flutter](https://img.shields.io/badge/Flutter-3.7-02569B?style=flat-square&logo=flutter)](https://flutter.dev)
 [![Firebase](https://img.shields.io/badge/Firebase-Firestore-FFCA28?style=flat-square&logo=firebase&logoColor=black)](https://firebase.google.com)
 [![Platform](https://img.shields.io/badge/plataforma-Web%20%7C%20Android%20%7C%20Windows-lightgrey?style=flat-square)](https://flutter.dev)
 
-[🌐 Acesse a Landing Page](https://raceflow-puce.vercel.app) · [📱 Baixar APK](https://github.com/brnpalma/raceflow-releases/releases/download/v6.3.1/RaceFlow-v6.3.1.apk) · [🪟 Baixar na Microsoft Store](https://apps.microsoft.com/detail/9NSV6W2XSVCH)
+[🌐 Acesse a Landing Page](https://raceflow-puce.vercel.app) · [📱 Baixar APK](https://github.com/brnpalma/raceflow-releases/releases/download/v6.4.0/RaceFlow-v6.4.0.apk) · [🪟 Baixar na Microsoft Store](https://apps.microsoft.com/detail/9NSV6W2XSVCH)
 
 </div>
 
@@ -25,23 +25,25 @@ RaceFlow é uma plataforma multiplataforma para criar e gerenciar campeonatos de
 
 Disponível para **Web**, **Android** e **Windows**.
 
-## Download — versão atual: v6.3.1
+## Download — versão atual: v6.4.0
 
 | Plataforma | Como baixar |
 |------------|-------------|
-| Android | [⬇ Baixar APK](https://github.com/brnpalma/raceflow-releases/releases/download/v6.3.1/RaceFlow-v6.3.1.apk) |
+| Android | [⬇ Baixar APK](https://github.com/brnpalma/raceflow-releases/releases/download/v6.4.0/RaceFlow-v6.4.0.apk) |
 | Windows | [🪟 Baixar na Microsoft Store](https://apps.microsoft.com/detail/9NSV6W2XSVCH) |
 
 Publicado em: 30/07/2026
 
 ---
 
-## Notas da versão v6.3.1
+## Notas da versão v6.4.0
 
 ### Novidades
-- Melhorias na tela de overlays e funcionalidades em tempo real
-- Assistente de configuração de telemetria aprimorado com dicas de timeout
-- Traduções pt/en atualizadas para gerenciamento de pilotos e telemetria
+- feat: enable core library desugaring and add necessary dependency
+
+### Outros
+- Refactor telemetry overlay and improve UI components
+- Remove obsolete test files for local telemetry storage, recent accounts storage, rx repository, telemetry repository, telemetry session repository, what's new repository, league matching service, rx calculator, and widget tests.
 
 ---
 
