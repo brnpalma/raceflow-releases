@@ -6,12 +6,12 @@
 
 **Gerencie seus campeonatos de automobilismo como um verdadeiro chefe de equipe.**
 
-[![Version](https://img.shields.io/badge/versão-6.5.0-blue?style=flat-square)](https://github.com/brnpalma/raceflow-releases/releases/tag/v6.5.0)
+[![Version](https://img.shields.io/badge/versão-6.5.1-blue?style=flat-square)](https://github.com/brnpalma/raceflow-releases/releases/tag/v6.5.1)
 [![Flutter](https://img.shields.io/badge/Flutter-3.7-02569B?style=flat-square&logo=flutter)](https://flutter.dev)
 [![Firebase](https://img.shields.io/badge/Firebase-Firestore-FFCA28?style=flat-square&logo=firebase&logoColor=black)](https://firebase.google.com)
 [![Platform](https://img.shields.io/badge/plataforma-Web%20%7C%20Android%20%7C%20Windows-lightgrey?style=flat-square)](https://flutter.dev)
 
-[🌐 Acesse a Landing Page](https://raceflow-puce.vercel.app) · [📱 Baixar APK](https://github.com/brnpalma/raceflow-releases/releases/download/v6.5.0/RaceFlow-v6.5.0.apk) · [🪟 Baixar na Microsoft Store](https://apps.microsoft.com/detail/9NSV6W2XSVCH)
+[🌐 Acesse a Landing Page](https://raceflow-puce.vercel.app) · [📱 Baixar APK](https://github.com/brnpalma/raceflow-releases/releases/download/v6.5.1/RaceFlow-v6.5.1.apk) · [🪟 Baixar na Microsoft Store](https://apps.microsoft.com/detail/9NSV6W2XSVCH)
 
 </div>
 
@@ -25,33 +25,25 @@ RaceFlow é uma plataforma multiplataforma para criar e gerenciar campeonatos de
 
 Disponível para **Web**, **Android** e **Windows**.
 
-## Download — versão atual: v6.5.0
+## Download — versão atual: v6.5.1
 
 | Plataforma | Como baixar |
 |------------|-------------|
-| Android | [⬇ Baixar APK](https://github.com/brnpalma/raceflow-releases/releases/download/v6.5.0/RaceFlow-v6.5.0.apk) |
+| Android | [⬇ Baixar APK](https://github.com/brnpalma/raceflow-releases/releases/download/v6.5.1/RaceFlow-v6.5.1.apk) |
 | Windows | [🪟 Baixar na Microsoft Store](https://apps.microsoft.com/detail/9NSV6W2XSVCH) |
 
-Publicado em: 31/07/2026
+Publicado em: 02/08/2026
 
 ---
 
-## Notas da versão v6.5.0
-
-### Novidades
-- Segundos de penalidade agora aparecem ao vivo no dashboard de telemetria durante a corrida, não só na classificação final
+## Notas da versão v6.5.1
 
 ### Correções
-- Notificação push de classificação final agora dispara só em corrida (não mais em treino/classificação)
-- Corrigido crash ao carregar liga/corrida sem capa (imagem vazia tratada como URL de rede)
-- Corrigido permission-denied ao abrir perfil de piloto por link público sem estar logado
-- Reduzido risco de crash nativo do Firestore no Windows: chamadas sequenciais por item substituídas por consultas em lote (whereIn/batch) em vários fluxos de liga, RX e pilotos
-- Armazenamento local de sessão de telemetria movido de Documents (podia estar redirecionado pro OneDrive) para a pasta de dados do app
-- Símbolos de depuração (PDB) agora são gerados e enviados ao Sentry a cada build Release, permitindo diagnosticar crashes nativos do Windows com precisão
+- Notificação push de "sessão finalizada" não repete mais várias vezes quando a sessão de telemetria termina.
 
 ### Outros
-- Build Release do Windows agora inclui geração de símbolos de depuração automaticamente
-
+- Ajustes de localização (labels de corridas, funcionalidade de sorteio).
+- Refatoração da tela de pontuação e componentes de resultados de corrida.
 
 ---
 
