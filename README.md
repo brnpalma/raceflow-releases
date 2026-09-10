@@ -6,7 +6,7 @@
 
 **Gerencie seus campeonatos de automobilismo como um verdadeiro chefe de equipe.**
 
-[![Version](https://img.shields.io/badge/versão-8.14.0-blue?style=flat-square)](https://github.com/brnpalma/raceflow-releases/releases/tag/v8.14.0)
+[![Version](https://img.shields.io/badge/versão-8.16.0-blue?style=flat-square)](https://github.com/brnpalma/raceflow-releases/releases/tag/v8.16.0)
 [![Flutter](https://img.shields.io/badge/Flutter-3.7-02569B?style=flat-square&logo=flutter)](https://flutter.dev)
 [![Firebase](https://img.shields.io/badge/Firebase-Firestore-FFCA28?style=flat-square&logo=firebase&logoColor=black)](https://firebase.google.com)
 [![Platform](https://img.shields.io/badge/plataforma-Web%20%7C%20Android%20%7C%20Windows-lightgrey?style=flat-square)](https://flutter.dev)
@@ -25,30 +25,30 @@ RaceFlow é uma plataforma multiplataforma para criar e gerenciar campeonatos de
 
 Disponível para **Web**, **Android** e **Windows**.
 
-## Download — versão atual: v8.14.0
+## Download — versão atual: v8.16.0
 
 | Plataforma | Como baixar |
 |------------|-------------|
 | Android | [📱 Baixar no Google Play](https://play.google.com/store/apps/details?id=com.raceflow.raceflow) |
 | Windows | [🪟 Baixar na Microsoft Store](https://apps.microsoft.com/detail/9NSV6W2XSVCH) |
 
-Publicado em: 08/09/2026
+Publicado em: 10/09/2026
 
 ---
 
-## Notas da versão v8.14.0
+## Notas da versão v8.16.0
 
 ### Novidades
-- Melhorias na gestão de participação em ligas
-- Aprimoramentos nas sessões do Engenheiro de Corrida e na interface
-- Novo overlay de duelo de desgaste de pneus
-- Acompanhamento de condições da pista e bandeira amarela na telemetria
-- Melhorias no acompanhamento de setores
-- Cache do estado do sorteio entre sessões
-- Confirmação ao sair do sorteio com alterações não salvas
+
+- Confirmação de e-mail no cadastro: ao criar sua conta você recebe um link por e-mail e o acesso ao app só é liberado depois de confirmar
+- Notificações quando um piloto é suspenso em uma liga
+- Nomes das pistas no modo invertido (Silverstone, Red Bull Ring, Zandvoort, Madri)
 
 ### Correções
-- Ajustes no tratamento de erros e no processo de backup
+
+- Suspensão de piloto agora é lida corretamente dentro da liga
+- Ajuste no espaçamento do modo bateria no overlay
+
 
 ---
 
