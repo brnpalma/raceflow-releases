@@ -6,7 +6,7 @@
 
 **Gerencie seus campeonatos de automobilismo como um verdadeiro chefe de equipe.**
 
-[![Version](https://img.shields.io/badge/versão-8.16.0-blue?style=flat-square)](https://github.com/brnpalma/raceflow-releases/releases/tag/v8.16.0)
+[![Version](https://img.shields.io/badge/versão-8.17.0-blue?style=flat-square)](https://github.com/brnpalma/raceflow-releases/releases/tag/v8.17.0)
 [![Flutter](https://img.shields.io/badge/Flutter-3.7-02569B?style=flat-square&logo=flutter)](https://flutter.dev)
 [![Firebase](https://img.shields.io/badge/Firebase-Firestore-FFCA28?style=flat-square&logo=firebase&logoColor=black)](https://firebase.google.com)
 [![Platform](https://img.shields.io/badge/plataforma-Web%20%7C%20Android%20%7C%20Windows-lightgrey?style=flat-square)](https://flutter.dev)
@@ -25,29 +25,29 @@ RaceFlow é uma plataforma multiplataforma para criar e gerenciar campeonatos de
 
 Disponível para **Web**, **Android** e **Windows**.
 
-## Download — versão atual: v8.16.0
+## Download — versão atual: v8.17.0
 
 | Plataforma | Como baixar |
 |------------|-------------|
 | Android | [📱 Baixar no Google Play](https://play.google.com/store/apps/details?id=com.raceflow.raceflow) |
 | Windows | [🪟 Baixar na Microsoft Store](https://apps.microsoft.com/detail/9NSV6W2XSVCH) |
 
-Publicado em: 10/09/2026
+Publicado em: 15/09/2026
 
 ---
 
-## Notas da versão v8.16.0
+## Notas da versão v8.17.0
 
 ### Novidades
-
-- Confirmação de e-mail no cadastro: ao criar sua conta você recebe um link por e-mail e o acesso ao app só é liberado depois de confirmar
-- Notificações quando um piloto é suspenso em uma liga
-- Nomes das pistas no modo invertido (Silverstone, Red Bull Ring, Zandvoort, Madri)
+- Modo Engenheiro: nova análise multi-sessão, aba Veículo/Mapa e overlays de comparação com rival
+- Botão de salvar análise e indicador de setor pendente no Engenheiro
+- Notificações de incidente no Discord agora incluem pista, volta e descrição
+- Filtro por data e registro rápido de incidentes
+- Agora é possível cadastrar piloto sem equipe
+- Aviso de atualização disponível dentro do app (Android)
 
 ### Correções
-
-- Suspensão de piloto agora é lida corretamente dentro da liga
-- Ajuste no espaçamento do modo bateria no overlay
+- Ajustes visuais em colunas agrupadas
 
 
 ---
