@@ -6,7 +6,7 @@
 
 **Gerencie seus campeonatos de automobilismo como um verdadeiro chefe de equipe.**
 
-[![Version](https://img.shields.io/badge/versão-8.18.1-blue?style=flat-square)](https://github.com/brnpalma/raceflow-releases/releases/tag/v8.18.1)
+[![Version](https://img.shields.io/badge/versão-9.0.1-blue?style=flat-square)](https://github.com/brnpalma/raceflow-releases/releases/tag/v9.0.1)
 [![Flutter](https://img.shields.io/badge/Flutter-3.7-02569B?style=flat-square&logo=flutter)](https://flutter.dev)
 [![Firebase](https://img.shields.io/badge/Firebase-Firestore-FFCA28?style=flat-square&logo=firebase&logoColor=black)](https://firebase.google.com)
 [![Platform](https://img.shields.io/badge/plataforma-Web%20%7C%20Android%20%7C%20Windows-lightgrey?style=flat-square)](https://flutter.dev)
@@ -25,25 +25,22 @@ RaceFlow é uma plataforma multiplataforma para criar e gerenciar campeonatos de
 
 Disponível para **Web**, **Android** e **Windows**.
 
-## Download — versão atual: v8.18.1
+## Download — versão atual: v9.0.1
 
 | Plataforma | Como baixar |
 |------------|-------------|
 | Android | [📱 Baixar no Google Play](https://play.google.com/store/apps/details?id=com.raceflow.raceflow) |
 | Windows | [🪟 Baixar na Microsoft Store](https://apps.microsoft.com/detail/9NSV6W2XSVCH) |
 
-Publicado em: 17/09/2026
+Publicado em: 21/09/2026
 
 ---
 
-## Notas da versão v8.18.1
-
-### Novidades
-- TOP 10 mundial de RX no ranking
-- Novo layout do Engenheiro, com bateria e dano fixados numa coluna lateral
+## Notas da versão v9.0.1
 
 ### Correções
-- Ajustes de estabilidade
+- Corrigido travamento ocasional na aba de comparação com rival do modo Engenheiro
+- Corrigido botão "Salvar análise" que em alguns casos não gravava a análise do treino
 
 ---
 
