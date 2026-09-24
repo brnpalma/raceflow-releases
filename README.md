@@ -6,7 +6,7 @@
 
 **Gerencie seus campeonatos de automobilismo como um verdadeiro chefe de equipe.**
 
-[![Version](https://img.shields.io/badge/versão-9.1.0-blue?style=flat-square)](https://github.com/brnpalma/raceflow-releases/releases/tag/v9.1.0)
+[![Version](https://img.shields.io/badge/versão-9.2.0-blue?style=flat-square)](https://github.com/brnpalma/raceflow-releases/releases/tag/v9.2.0)
 [![Flutter](https://img.shields.io/badge/Flutter-3.7-02569B?style=flat-square&logo=flutter)](https://flutter.dev)
 [![Firebase](https://img.shields.io/badge/Firebase-Firestore-FFCA28?style=flat-square&logo=firebase&logoColor=black)](https://firebase.google.com)
 [![Platform](https://img.shields.io/badge/plataforma-Web%20%7C%20Android%20%7C%20Windows-lightgrey?style=flat-square)](https://flutter.dev)
@@ -25,25 +25,27 @@ RaceFlow é uma plataforma multiplataforma para criar e gerenciar campeonatos de
 
 Disponível para **Web**, **Android** e **Windows**.
 
-## Download — versão atual: v9.1.0
+## Download — versão atual: v9.2.0
 
 | Plataforma | Como baixar |
 |------------|-------------|
 | Android | [📱 Baixar no Google Play](https://play.google.com/store/apps/details?id=com.raceflow.raceflow) |
 | Windows | [🪟 Baixar na Microsoft Store](https://apps.microsoft.com/detail/9NSV6W2XSVCH) |
 
-Publicado em: 23/09/2026
+Publicado em: 24/09/2026
 
 ---
 
-## Notas da versão v9.1.0
+## Notas da versão v9.2.0
 
 ### Novidades
-- Você agora é avisado quando um incidente em que está envolvido é decidido.
-- O gestor da liga é avisado quando um piloto envia uma defesa.
+
+- Overlay de bateria ganhou indicador de marcha e volante.
+- Novo overlay de previsão de desgaste de pneu.
 
 ### Correções
-- Liga excluída não aparece mais na sua lista de ligas.
+
+- Conexão do Engenheiro mais inteligente para diferentes tipos de rede entre piloto e engenheiro.
 
 ---
 
