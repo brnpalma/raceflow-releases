@@ -6,7 +6,7 @@
 
 **Gerencie seus campeonatos de automobilismo como um verdadeiro chefe de equipe.**
 
-[![Version](https://img.shields.io/badge/versão-9.4.1-blue?style=flat-square)](https://github.com/brnpalma/raceflow-releases/releases/tag/v9.4.1)
+[![Version](https://img.shields.io/badge/versão-9.5.0-blue?style=flat-square)](https://github.com/brnpalma/raceflow-releases/releases/tag/v9.5.0)
 [![Flutter](https://img.shields.io/badge/Flutter-3.7-02569B?style=flat-square&logo=flutter)](https://flutter.dev)
 [![Firebase](https://img.shields.io/badge/Firebase-Firestore-FFCA28?style=flat-square&logo=firebase&logoColor=black)](https://firebase.google.com)
 [![Platform](https://img.shields.io/badge/plataforma-Web%20%7C%20Android%20%7C%20Windows-lightgrey?style=flat-square)](https://flutter.dev)
@@ -25,7 +25,7 @@ RaceFlow é uma plataforma multiplataforma para criar e gerenciar campeonatos de
 
 Disponível para **Web**, **Android** e **Windows**.
 
-## Download — versão atual: v9.4.1
+## Download — versão atual: v9.5.0
 
 | Plataforma | Como baixar |
 |------------|-------------|
@@ -36,11 +36,11 @@ Publicado em: 29/09/2026
 
 ---
 
-## Notas da versão v9.4.1
+## Notas da versão v9.5.0
 
-### Correções
-- Corrigido o RX que não atualizava depois de novos resultados de corridas.
-- Melhorias de segurança e estabilidade.
+### Novidades
+- Engenheiro: agora dá pra abrir as abas Volta/Volta, Mapa e Box, Grid e Rival em janelas separadas (Windows), com botão "Abrir em janela" em cada aba.
+
 
 ---
 
