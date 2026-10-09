@@ -6,7 +6,7 @@
 
 **Gerencie seus campeonatos de automobilismo como um verdadeiro chefe de equipe.**
 
-[![Version](https://img.shields.io/badge/versão-9.10.0-blue?style=flat-square)](https://github.com/brnpalma/raceflow-releases/releases/tag/v9.10.0)
+[![Version](https://img.shields.io/badge/versão-9.12.0-blue?style=flat-square)](https://github.com/brnpalma/raceflow-releases/releases/tag/v9.12.0)
 [![Flutter](https://img.shields.io/badge/Flutter-3.7-02569B?style=flat-square&logo=flutter)](https://flutter.dev)
 [![Firebase](https://img.shields.io/badge/Firebase-Firestore-FFCA28?style=flat-square&logo=firebase&logoColor=black)](https://firebase.google.com)
 [![Platform](https://img.shields.io/badge/plataforma-Web%20%7C%20Android%20%7C%20Windows-lightgrey?style=flat-square)](https://flutter.dev)
@@ -25,27 +25,28 @@ RaceFlow é uma plataforma multiplataforma para criar e gerenciar campeonatos de
 
 Disponível para **Web**, **Android** e **Windows**.
 
-## Download — versão atual: v9.10.0
+## Download — versão atual: v9.12.0
 
 | Plataforma | Como baixar |
 |------------|-------------|
 | Android | [📱 Baixar no Google Play](https://play.google.com/store/apps/details?id=com.raceflow.raceflow) |
 | Windows | [🪟 Baixar na Microsoft Store](https://apps.microsoft.com/detail/9NSV6W2XSVCH) |
 
-Publicado em: 07/10/2026
+Publicado em: 09/10/2026
 
 ---
 
-## Notas da versão v9.10.0
+## Notas da versão v9.12.0
 
 ### Novidades
-- Modo Engenheiro: Estabilizador de Conexão (AMS2) em Configurações, com alerta quando a conexão piora e botão Ajustar.
-- Telemetria com nome parecido ao de um piloto da liga abre diálogo para mesclar os dois.
-- Ranking Mundial: setas de subida e descida redesenhadas.
-- Bônus de consistência do RX agora exige 3 corridas sem punição e sem abandono.
+- AMS2: agora exibe a bandeira dupla amarela e os setores em amarelo por piloto.
 
 ### Correções
-- Melhorias no primeiros passos e correções gerais.
+- Corrigido o reinício falso de corrida quando um retardatário cruzava a linha, que podia criar sessões duplicadas.
+- O app consome menos memória durante corridas longas.
+- Corrigida a detecção de reinício de qualificação no AMS2.
+- Overlays: o leaderboard agora se ajusta melhor à tela.
+- A consulta de pedidos de entrada em ligas ficou mais rápida.
 
 ---
 
