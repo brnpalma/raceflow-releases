@@ -6,7 +6,7 @@
 
 **Gerencie seus campeonatos de automobilismo como um verdadeiro chefe de equipe.**
 
-[![Version](https://img.shields.io/badge/versão-9.12.0-blue?style=flat-square)](https://github.com/brnpalma/raceflow-releases/releases/tag/v9.12.0)
+[![Version](https://img.shields.io/badge/versão-9.13.0-blue?style=flat-square)](https://github.com/brnpalma/raceflow-releases/releases/tag/v9.13.0)
 [![Flutter](https://img.shields.io/badge/Flutter-3.7-02569B?style=flat-square&logo=flutter)](https://flutter.dev)
 [![Firebase](https://img.shields.io/badge/Firebase-Firestore-FFCA28?style=flat-square&logo=firebase&logoColor=black)](https://firebase.google.com)
 [![Platform](https://img.shields.io/badge/plataforma-Web%20%7C%20Android%20%7C%20Windows-lightgrey?style=flat-square)](https://flutter.dev)
@@ -25,7 +25,7 @@ RaceFlow é uma plataforma multiplataforma para criar e gerenciar campeonatos de
 
 Disponível para **Web**, **Android** e **Windows**.
 
-## Download — versão atual: v9.12.0
+## Download — versão atual: v9.13.0
 
 | Plataforma | Como baixar |
 |------------|-------------|
@@ -36,17 +36,10 @@ Publicado em: 09/10/2026
 
 ---
 
-## Notas da versão v9.12.0
+## Notas da versão v9.13.0
 
 ### Novidades
-- AMS2: agora exibe a bandeira dupla amarela e os setores em amarelo por piloto.
-
-### Correções
-- Corrigido o reinício falso de corrida quando um retardatário cruzava a linha, que podia criar sessões duplicadas.
-- O app consome menos memória durante corridas longas.
-- Corrigida a detecção de reinício de qualificação no AMS2.
-- Overlays: o leaderboard agora se ajusta melhor à tela.
-- A consulta de pedidos de entrada em ligas ficou mais rápida.
+- **Pinturas AMS2 (Windows):** crie pinturas personalizadas para os carros do Automobilista 2, aplique no jogo com um assistente de 5 etapas, compartilhe com os colegas em um zip e restaure o padrão do jogo quando quiser.
 
 ---
 
