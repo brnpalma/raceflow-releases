@@ -6,7 +6,7 @@
 
 **Gerencie seus campeonatos de automobilismo como um verdadeiro chefe de equipe.**
 
-[![Version](https://img.shields.io/badge/versão-9.13.0-blue?style=flat-square)](https://github.com/brnpalma/raceflow-releases/releases/tag/v9.13.0)
+[![Version](https://img.shields.io/badge/versão-9.13.1-blue?style=flat-square)](https://github.com/brnpalma/raceflow-releases/releases/tag/v9.13.1)
 [![Flutter](https://img.shields.io/badge/Flutter-3.7-02569B?style=flat-square&logo=flutter)](https://flutter.dev)
 [![Firebase](https://img.shields.io/badge/Firebase-Firestore-FFCA28?style=flat-square&logo=firebase&logoColor=black)](https://firebase.google.com)
 [![Platform](https://img.shields.io/badge/plataforma-Web%20%7C%20Android%20%7C%20Windows-lightgrey?style=flat-square)](https://flutter.dev)
@@ -25,21 +25,26 @@ RaceFlow é uma plataforma multiplataforma para criar e gerenciar campeonatos de
 
 Disponível para **Web**, **Android** e **Windows**.
 
-## Download — versão atual: v9.13.0
+## Download — versão atual: v9.13.1
 
 | Plataforma | Como baixar |
 |------------|-------------|
 | Android | [📱 Baixar no Google Play](https://play.google.com/store/apps/details?id=com.raceflow.raceflow) |
 | Windows | [🪟 Baixar na Microsoft Store](https://apps.microsoft.com/detail/9NSV6W2XSVCH) |
 
-Publicado em: 09/10/2026
+Publicado em: 10/10/2026
 
 ---
 
-## Notas da versão v9.13.0
+## Notas da versão v9.13.1
 
 ### Novidades
-- **Pinturas AMS2 (Windows):** crie pinturas personalizadas para os carros do Automobilista 2, aplique no jogo com um assistente de 5 etapas, compartilhe com os colegas em um zip e restaure o padrão do jogo quando quiser.
+- Pinturas AMS2: o app identifica sozinho os arquivos de cada carro no seu jogo, inclusive carros com mais de uma versão
+- Assistente reorganizado: pintura e pré-visualização em etapas separadas, e o slot agora é escolhido automaticamente
+
+### Outros
+- Avisos de que o template é só um molde e de que só zips gerados pelo RaceFlow podem ser importados
+- Telas ajustadas para janelas pequenas e grandes
 
 ---
 
