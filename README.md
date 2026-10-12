@@ -6,7 +6,7 @@
 
 **Gerencie seus campeonatos de automobilismo como um verdadeiro chefe de equipe.**
 
-[![Version](https://img.shields.io/badge/versão-9.13.1-blue?style=flat-square)](https://github.com/brnpalma/raceflow-releases/releases/tag/v9.13.1)
+[![Version](https://img.shields.io/badge/versão-9.14.0-blue?style=flat-square)](https://github.com/brnpalma/raceflow-releases/releases/tag/v9.14.0)
 [![Flutter](https://img.shields.io/badge/Flutter-3.7-02569B?style=flat-square&logo=flutter)](https://flutter.dev)
 [![Firebase](https://img.shields.io/badge/Firebase-Firestore-FFCA28?style=flat-square&logo=firebase&logoColor=black)](https://firebase.google.com)
 [![Platform](https://img.shields.io/badge/plataforma-Web%20%7C%20Android%20%7C%20Windows-lightgrey?style=flat-square)](https://flutter.dev)
@@ -25,26 +25,25 @@ RaceFlow é uma plataforma multiplataforma para criar e gerenciar campeonatos de
 
 Disponível para **Web**, **Android** e **Windows**.
 
-## Download — versão atual: v9.13.1
+## Download — versão atual: v9.14.0
 
 | Plataforma | Como baixar |
 |------------|-------------|
 | Android | [📱 Baixar no Google Play](https://play.google.com/store/apps/details?id=com.raceflow.raceflow) |
 | Windows | [🪟 Baixar na Microsoft Store](https://apps.microsoft.com/detail/9NSV6W2XSVCH) |
 
-Publicado em: 10/10/2026
+Publicado em: 12/10/2026
 
 ---
 
-## Notas da versão v9.13.1
+## Notas da versão v9.14.0
 
 ### Novidades
-- Pinturas AMS2: o app identifica sozinho os arquivos de cada carro no seu jogo, inclusive carros com mais de uma versão
-- Assistente reorganizado: pintura e pré-visualização em etapas separadas, e o slot agora é escolhido automaticamente
+- Multiview: acompanhe as transmissões de vários dos seus pilotos ao mesmo tempo no Monitor.
+- Modo Piloto nos overlays: os overlays agora podem ser divididos em itens separados, cada um com seu próprio ajuste.
+- Painel de overlays refinado, com dicas de uso padronizadas e ícones de ação mais claros.
+- Pequenos ajustes na telemetria.
 
-### Outros
-- Avisos de que o template é só um molde e de que só zips gerados pelo RaceFlow podem ser importados
-- Telas ajustadas para janelas pequenas e grandes
 
 ---
 
