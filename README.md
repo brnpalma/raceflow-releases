@@ -6,7 +6,7 @@
 
 **Gerencie seus campeonatos de automobilismo como um verdadeiro chefe de equipe.**
 
-[![Version](https://img.shields.io/badge/versão-9.17.0-blue?style=flat-square)](https://github.com/brnpalma/raceflow-releases/releases/tag/v9.17.0)
+[![Version](https://img.shields.io/badge/versão-9.18.0-blue?style=flat-square)](https://github.com/brnpalma/raceflow-releases/releases/tag/v9.18.0)
 [![Flutter](https://img.shields.io/badge/Flutter-3.7-02569B?style=flat-square&logo=flutter)](https://flutter.dev)
 [![Firebase](https://img.shields.io/badge/Firebase-Firestore-FFCA28?style=flat-square&logo=firebase&logoColor=black)](https://firebase.google.com)
 [![Platform](https://img.shields.io/badge/plataforma-Web%20%7C%20Android%20%7C%20Windows-lightgrey?style=flat-square)](https://flutter.dev)
@@ -25,27 +25,30 @@ RaceFlow é uma plataforma multiplataforma para criar e gerenciar campeonatos de
 
 Disponível para **Web**, **Android** e **Windows**.
 
-## Download — versão atual: v9.17.0
+## Download — versão atual: v9.18.0
 
 | Plataforma | Como baixar |
 |------------|-------------|
 | Android | [📱 Baixar no Google Play](https://play.google.com/store/apps/details?id=com.raceflow.raceflow) |
 | Windows | [🪟 Baixar na Microsoft Store](https://apps.microsoft.com/detail/9NSV6W2XSVCH) |
 
-Publicado em: 20/10/2026
+Publicado em: 22/10/2026
 
 ---
 
-## Notas da versão v9.17.0
+## Notas da versão v9.18.0
 
-Novidades:
-- Overlays personalizados agora podem ter nome próprio e atalhos.
-- Engenheiro: nova opção Auto-Análise para analisar a sua própria direção.
-- AMS2: a tabela de voltas ao vivo começa na volta 1 e mostra a volta em andamento.
+### Novidades
+- Novo modo Auto-análise no Engenheiro: acompanhe suas próprias voltas
+- Lista de presença para ligas e listas avulsas
+- Convidados pontuam ao serem promovidos, com chips R1/R2
 
-Correções:
-- A aba Rival mostra só os pilotos que estão na sessão.
-- Ajustes visuais no seletor de abas do engenheiro.
+### Correções
+- URLs dos overlays agora são fixas: o OBS não perde mais as configurações
+- Overlay Essencial na versão web corrigido
+- Corrigidos cenários que interrompiam a telemetria
+- AMS2: setores e desgaste de pneus corrigidos
+- Overlay do Engenheiro permanece visível
 
 
 ---
