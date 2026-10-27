@@ -6,7 +6,7 @@
 
 **Gerencie seus campeonatos de automobilismo como um verdadeiro chefe de equipe.**
 
-[![Version](https://img.shields.io/badge/versão-9.21.0-blue?style=flat-square)](https://github.com/brnpalma/raceflow-releases/releases/tag/v9.21.0)
+[![Version](https://img.shields.io/badge/versão-9.22.0-blue?style=flat-square)](https://github.com/brnpalma/raceflow-releases/releases/tag/v9.22.0)
 [![Flutter](https://img.shields.io/badge/Flutter-3.7-02569B?style=flat-square&logo=flutter)](https://flutter.dev)
 [![Firebase](https://img.shields.io/badge/Firebase-Firestore-FFCA28?style=flat-square&logo=firebase&logoColor=black)](https://firebase.google.com)
 [![Platform](https://img.shields.io/badge/plataforma-Web%20%7C%20Android%20%7C%20Windows-lightgrey?style=flat-square)](https://flutter.dev)
@@ -25,28 +25,25 @@ RaceFlow é uma plataforma multiplataforma para criar e gerenciar campeonatos de
 
 Disponível para **Web**, **Android** e **Windows**.
 
-## Download — versão atual: v9.21.0
+## Download — versão atual: v9.22.0
 
 | Plataforma | Como baixar |
 |------------|-------------|
 | Android | [📱 Baixar no Google Play](https://play.google.com/store/apps/details?id=com.raceflow.raceflow) |
 | Windows | [🪟 Baixar na Microsoft Store](https://apps.microsoft.com/detail/9NSV6W2XSVCH) |
 
-Publicado em: 26/10/2026
+Publicado em: 27/10/2026
 
 ---
 
-## Notas da versão v9.21.0
+## Notas da versão v9.22.0
 
-### Novidades
-- Monitor de Simuladores: botão no menu lateral para ligar ou pausar a telemetria, com pausa de 30 min, 1 h, 1 dia ou até reativar.
-- Lista de overlays: prévia, filtro, agrupamento, novos atalhos e ícones mais práticos direto na tela.
-- Gerenciamento de layouts de overlay, com ações novas.
-- Duelos com vídeo: durante o duelo aparece a live do piloto de trás, com duração configurável.
-- Primeiros passos com +1 RX por item concluído (máx. 5).
-- Catálogo de pistas por simulador no cadastro de corridas.
-- Detecção de pilotos duplicados na liga, com opção de mesclar ou separar.
-- Termos de Uso e Privacidade atualizados, com seção sobre lives.
+Novidades desta versão:
+- Botão Alterar em cada liga para trocar a imagem (vale também no cadastro).
+- A imagem muda sozinha para a próxima corrida quando a anterior é concluída.
+- Aviso quando a porta dos overlays já está em uso.
+- Salvar layout pergunta se você quer atualizar o atual ou criar um novo.
+- Tela de Overlays mais organizada em telas menores.
 
 
 ---
